@@ -1,0 +1,37 @@
+	.container{
+			width: 500px;
+			height: 500px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		.level1{
+			background-image: url('https://s3.amazonaws.com/mohanrfrontendtest/square1.png');
+			height: 500px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		.level2{
+			background-image: url('https://s3.amazonaws.com/mohanrfrontendtest/square2.png');
+			height: 350px;
+			width: 350px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			margin: 50px 75px 0px 75px;
+		}
+		.level3{
+			background-image: url('https://s3.amazonaws.com/mohanrfrontendtest/square3.png');
+			height: 150px;
+			width: 300px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			margin: 25px;
+		}
